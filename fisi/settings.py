@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 #SECRET_KEY = config('SECRET_KEY')
-SECRET_KEY='ekbg0pvfra=+7idd!x+e&7t0rltdux8x%&*v4^+e$)^+l8&cet'
+SECRET_KEY='ekbg0pvfra=+7idd!x+e&7t0rltdux8x%&*v4^+e$)^+l8&cet__'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
