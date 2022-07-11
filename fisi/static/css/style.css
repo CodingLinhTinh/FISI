@@ -1,0 +1,14 @@
+.btn-primary, .btn-primary:active, .btn-primary:visited, .dropdown-toggle {
+    background-color: #FF7315;
+    border-color: #FF5F00;
+    color: #F4F4F4;
+}
+.btn:hover, .btn-primary:hover{
+    background-color: #FF8C32;
+    border-color: #FF5F00;
+}
+
+.btn-outline-primary{
+    border-color: #FF5F00;
+    color:  #FF5F00;
+}

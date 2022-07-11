@@ -1,0 +1,1 @@
+web: gunicorn fisi.wsgi:application --log-file -

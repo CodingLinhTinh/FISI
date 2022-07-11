@@ -1,0 +1,12 @@
+<aside class="col-md-3">
+  <!--   SIDEBAR   -->
+  <ul class="list-group">
+    <a class="list-group-item {% if '/accounts/' == request.path %}active{% endif %}" style="background-color: #FF7315;border-color: #FF5F00;color: #F4F4F4;" href="{% url 'dashboard' %}"> Dashboard </a>
+    <a class="list-group-item {% if '/my_orders/' in request.path %}active{% endif %}" style="background-color: #FF7315;border-color: #FF5F00;color: #F4F4F4;" href="{% url 'my_orders' %}"> Đơn hàng của tôi </a>
+    <a class="list-group-item {% if '/edit_profile/' in request.path %}active{% endif %}" style="background-color: #FF7315;border-color: #FF5F00;color: #F4F4F4;" href="{% url 'edit_profile' %}"> Sửa Profile </a>
+    <a class="list-group-item {% if '/change_password/' in request.path %}active{% endif %}" style="background-color: #FF7315;border-color: #FF5F00;color: #F4F4F4;" href="{% url 'change_password' %}">Đổi mật khẩu</a>
+  </ul>
+  <br>
+  <a class="btn btn-light btn-block" href="{% url 'logout' %}"> <i class="fa fa-power-off"></i> <span class="text">Đăng Xuất</span> </a>
+  <!--   SIDEBAR .//END   -->
+</aside>

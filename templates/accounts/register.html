@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="section-content padding-y">
+	<div class="card mx-auto" style="max-width:520px; margin-top:40px;">
+      <article class="card-body">
+      	{% include 'includes/alerts.html' %}
+		<header class="mb-4"><h4 class="card-title">Đăng Ký</h4></header>
+		<form action="{% url 'register' %}" method="POST">
+			{% csrf_token %}
+				<div class="form-row">
+					<div class="col form-group">
+						<label>Tên</label>
+					  	{{ form.first_name }}
+					</div> <!-- form-group end.// -->
+					<div class="col form-group">
+						<label>Họ</label>
+					  	{{ form.last_name }}
+					</div> <!-- form-group end.// -->
+				</div> <!-- form-row end.// -->
+
+				<div class="form-row">
+					<div class="form-group col-md-6">
+					  <label>Địa chỉ Email:</label>
+					  {{ form.email }}
+					  <small class="form-text text-muted">Chúng tôi sẽ không chia sẻ email của bạn với ai khác.</small>
+					</div> <!-- form-group end.// -->
+					<div class="form-group col-md-6">
+					  <label>Số điện thoại</label>
+					  {{ form.phone_number }}
+					</div> <!-- form-group end.// -->
+				</div> <!-- form-row.// -->
+
+				<div class="form-row">
+					<div class="form-group col-md-6">
+						<label>Tạo mật khẩu</label>
+					    {{ form.password }}
+					</div> <!-- form-group end.// --> 
+					<div class="form-group col-md-6">
+						<label>Nhập lại mật khẩu</label>
+						{{ form.confirm_password }}
+					</div> <!-- form-group end.// -->  
+
+				</div>
+
+			    <div class="form-group">
+			        <button type="submit" class="btn btn-primary btn-block"> Đăng ký  </button>
+			    </div> <!-- form-group// -->      
+			    {{ form.email.errors }} 
+			    {{ form.non_field_errors }} 
+			</form>
+		</article><!-- card-body.// -->
+    </div> <!-- card .// -->
+    <p class="text-center mt-4">Đã có tài khoản? <a href="{% url 'login' %}">Đăng nhập.</a></p>
+    <br><br>
+
+</section>
+
+{% endblock %}
