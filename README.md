@@ -58,12 +58,13 @@
 
 ![thanhtoanthanhcong](https://user-images.githubusercontent.com/92833984/178193139-60c68e6b-1f33-40c2-9ba5-17e67f88fc48.png)
 
+
+![ghidon](https://user-images.githubusercontent.com/92833984/178193108-7d2349ba-5bfa-4b3d-81b8-9ef2147ad6a7.png)
+
 ![thanhtoanvareview](https://user-images.githubusercontent.com/92833984/178193142-e4bbcbdd-83c9-4b71-b3b8-b5ff21d69106.png)
 
 * Đơn hàng
 ![donhang](https://user-images.githubusercontent.com/92833984/178193100-d56c0472-ed8d-435b-9eeb-f0abc18377bd.png)
-
-![ghidon](https://user-images.githubusercontent.com/92833984/178193108-7d2349ba-5bfa-4b3d-81b8-9ef2147ad6a7.png)
 
 ![luuorder](https://user-images.githubusercontent.com/92833984/178193110-85a01ce9-3b0c-444a-a879-9e6d44df410a.png)
 
